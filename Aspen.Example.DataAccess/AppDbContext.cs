@@ -8,6 +8,8 @@ namespace Aspen.Example.DataAccess
     /// </summary>
     public class AppDbContext : DbContext
     {
+        public AppDbContext() { }
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
@@ -15,7 +17,7 @@ namespace Aspen.Example.DataAccess
         /// <summary>
         /// Represents the user entries into the database.
         /// </summary>
-        public DbSet<User> Users { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         /// <summary>
         /// Represents the roles entries into the database.
