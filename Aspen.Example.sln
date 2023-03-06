@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.Web", "Aspen.Example.Web\Aspen.Example.Web.csproj", "{0405E4FE-BF58-4D65-9FB1-61AC8447A731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspen.Example.Web", "Aspen.Example.Web\Aspen.Example.Web.csproj", "{0405E4FE-BF58-4D65-9FB1-61AC8447A731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.Entities", "Aspen.Example.Entities\Aspen.Example.Entities.csproj", "{C5FF073E-545B-4B94-8B1B-59EE0531EA3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aspen.Example.Entities", "Aspen.Example.Entities\Aspen.Example.Entities.csproj", "{C5FF073E-545B-4B94-8B1B-59EE0531EA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.DataAccess", "Aspen.Example.DataAccess\Aspen.Example.DataAccess.csproj", "{18C379BF-1C6B-44C0-ACDF-691234CF13EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.DataAccess.Interfaces", "Aspen.Example.DataAccess.Interfaces\Aspen.Example.DataAccess.Interfaces.csproj", "{D869459D-5041-4984-9D5D-BDB92D0E6A98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C5FF073E-545B-4B94-8B1B-59EE0531EA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5FF073E-545B-4B94-8B1B-59EE0531EA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5FF073E-545B-4B94-8B1B-59EE0531EA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C379BF-1C6B-44C0-ACDF-691234CF13EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C379BF-1C6B-44C0-ACDF-691234CF13EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C379BF-1C6B-44C0-ACDF-691234CF13EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C379BF-1C6B-44C0-ACDF-691234CF13EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
