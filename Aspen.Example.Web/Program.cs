@@ -1,4 +1,5 @@
 using Aspen.Example.DataAccess;
+using Aspen.Example.DataAccess.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,9 @@ builder.Services.AddControllersWithViews();
 
 // Add db services to SQL server
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
+// Inject (create the instances) for the business and the data access layer.
+builder.Services.AddScoped<IUserData, UserData>();
 
 var app = builder.Build();
 
