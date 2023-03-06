@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Aspen.Example.DataAccess.Interfaces\Aspen.Example.DataAccess.Interfaces.csproj" />
     <ProjectReference Include="..\Aspen.Example.Entities\Aspen.Example.Entities.csproj" />
   </ItemGroup>
 

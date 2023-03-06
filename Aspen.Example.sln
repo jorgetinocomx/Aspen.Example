@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.DataAccess", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.DataAccess.Interfaces", "Aspen.Example.DataAccess.Interfaces\Aspen.Example.DataAccess.Interfaces.csproj", "{D869459D-5041-4984-9D5D-BDB92D0E6A98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspen.Example.DataAccess.Test", "Aspen.Example.DataAccess.Test\Aspen.Example.DataAccess.Test.csproj", "{BC9F7313-8777-4986-88AD-F4B8486BEF46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D869459D-5041-4984-9D5D-BDB92D0E6A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9F7313-8777-4986-88AD-F4B8486BEF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9F7313-8777-4986-88AD-F4B8486BEF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9F7313-8777-4986-88AD-F4B8486BEF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9F7313-8777-4986-88AD-F4B8486BEF46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
