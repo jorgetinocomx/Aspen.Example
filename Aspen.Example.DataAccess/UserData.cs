@@ -1,5 +1,6 @@
 ﻿using Aspen.Example.DataAccess.Interfaces;
 using Aspen.Example.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Aspen.Example.DataAccess
 {
@@ -27,7 +28,10 @@ namespace Aspen.Example.DataAccess
         /// </summary>
         public IQueryable<User> Get()
         {
-            return _context.Users.AsQueryable();
+            return _context
+                    .Users
+                    .Include( x=> x.UserDepartment)
+                    .AsQueryable();
         }
 
         /// <summary>

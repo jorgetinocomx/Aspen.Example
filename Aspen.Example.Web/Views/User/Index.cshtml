@@ -15,7 +15,9 @@
             <td class="tableHeaderRow column2">
                 Last Name
             </td>
-
+            <td class="tableHeaderRow column2">
+                Department
+            </td>
         </tr>
     </thead>
     <tbody>
@@ -30,6 +32,10 @@
                 </td>
                 <td>
                     @item.LastName
+                </td>
+
+                <td>
+                    @item.UserDepartment.Name
                 </td>
             </tr>
             }
